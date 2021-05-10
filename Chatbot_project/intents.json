@@ -1,0 +1,224 @@
+{
+  "intents": [
+      {
+      "tag": "Allergy",
+      "patterns": [
+        "nasal congestion, itchy and watery eyes, sneezing, stuffy or runny nose, scratchy or sore throat, throat clearing, cough from postnasal drip",
+        "itchy and watery eyes",
+        "cough from postnasal drip",
+        "scratchy and nasal congestion",
+        "scratchy and cough from postnasal drip",
+        "sneezing, stuffy and cough",
+        "sore throat and watery eyes"
+      ],
+      "responses": [
+        "you may have an allergy",
+        "My guess from these symptoms, it can be allergy",
+        "it can be allergy",
+        "you should have an allergy from something"
+        
+      ]
+    },
+    {
+      "tag": "pregnancy",
+      "patterns": [
+        "absence of menstrual periods, breast swelling, tenderness and Food cravings",
+        "miss my menstrual period",
+        "i have breast swelling",
+        "start being more tender",
+        "feel hungry alot",
+        "i have missed my last period",
+        "my breasts hurt"
+      ],
+      "responses": [
+        "you may be pragnant",
+        "congratulations! you're pregnant",
+        "you should have a pragnancy test"
+        
+      ]
+    },
+    {
+      "tag": "diabetes",
+      "patterns": [
+        "dehydration, hunger, increased urination and increased thirst",
+        "feel dehydrated alot",
+        "eat much food lately",
+        "get in bathroom many times",
+        "thirsty all the time"
+      ],
+      "responses": [
+        "you may have diabetes",
+        "you should have diabetes test",
+        "unfortunately, you may be diabetic"
+         
+      ]
+    },
+    {
+      "tag": "hepatitis B",
+      "patterns": [
+        "fatigue, loss of appetite, nausea, jaundice, and pain in the upper right abdomen",
+        "feel tired permanently",
+        "I do not want to eat",
+        "lost my appetite",
+        "feel nausea",
+        "vomit many times",
+        "my skin and eyes are yellow",
+        "feel pain in my upper right abdomen"  
+      ],
+      "responses": [
+        "unfortunately, you may have hepatitis B",
+        "may be your liver is inflamed",
+        "you should have blood test"
+         
+      ]
+    }, 
+    {
+      "tag": "high blood pressure",
+      "patterns": [
+        "dizziness, shortness of breath, headache, and blurred vision, nosebleeds, blood in the urine, fatigue, chest pain",
+        "feel dizzy",
+        "my breath hurts",
+        "i have headache all time",
+        "not clear vision",
+        "i have blurred vision",
+        "my nose bleeds",
+        "got blood in urine",
+        "feel tired all the day",
+        "my chest hurts"  
+      ],
+      "responses": [
+        "you may have high blood pressure",
+        "you should have blood pressure test",
+        "if you have a sphygmomanometer, measure your blood pressure"
+         
+      ]
+    }, 
+    {
+      "tag": "Diarrhea",
+      "patterns": [
+        "bowel movements are frequent watery. no signs of inflammation. cramping abdominal pain",
+        "feel uncomfortable in my abdomen",
+        "bowel movements are frequent watery",
+        "i feel cramping abdominal pain"
+      ],
+      "responses": [
+        "you may have diarrhea",
+        "you should have Stool analysis"
+         
+      ]
+    },
+    {
+      "tag": "jaundice",
+      "patterns": [
+        "sometimes i have Yellow discoloration of the skin, mucous membranes and the whites of the eyes",
+        "i feel these days with some nasal congestion, watery eyes and itchy ",
+        "i am often have Light-colored skin Poor feeding Lethargy/excessive sleepiness Changes in muscle tone (either listless or stiff with arching of the back) High-pitched crying Seizures ",
+        "last week i suffered from Yellow discoloration of the skin, mucous membranes and the whites of the eyes"
+        
+      ],
+      "responses": [
+        "you have an jaundice with high probability for that.",
+        "My guess for sure from these symptoms, it can be jaundice",
+        "it can be jaundice with high percentage",
+        "you should have an jaundice from something"
+        
+      ]
+    },
+      {
+      "tag": "alzheimers",
+      "patterns": [
+        "sometimes i have loss of orientation (to person, place, or time) and agitation",
+        "i feel these days with irritability and a diminishing ability to care for him- or herself and to dress appropriately",
+        "i am often don't remember very close events, people, appointments and quarrelsomeness. ",
+        "last week i suffered from not recognizing for some memories which i always remember and not usual forget them."
+        
+      ],
+      "responses": [
+        "you have alzheimers with high probability for that.",
+        "My guess for sure from these symptoms, it can be alzheimers",
+        "it can be alzheimers with high percentage",
+        "you should have alzheimers "
+        
+      ]
+    },
+      {
+      "tag": "bone cancer",
+      "patterns": [
+        "i feel these days with  pain and swelling in the affected bones palpable hard mass in the long bones of the limbs feeling tired or fatigued easily broken bones weight loss",
+        "last week i suffered from pain and swelling in the affected bones palpable hard mass in the long bones of the limbs.",
+        "i am suffering from pain and swelling in the affected bones",
+        "i have pain and swelling in the affected bones "
+        
+      ],
+      "responses": [
+        "you may have an bone cancer.",
+        "My guess from these symptoms, it can be bone cancer.",
+        "it can be bone cancer.",
+        "you can have an bone cancer."
+        
+      ]
+    },
+      {
+      "tag": "Tularemia",
+      "patterns": [
+        "last week i suffered from chills and fatigue in addition to i found a bite swollen lymph nodes near the skin ulcer.",
+        "i am suffering from skin ulcer, severe headaches, a fever, chills and fatigue ",
+        "i have a skin ulcer at the point of contact with the infected animal or at the site of a bite swollen lymph nodes near the skin ulcer (most often in the armpit or groin) severe headaches a fever chills fatigue"
+        
+      ],
+      "responses": [
+        "you may have an Tularemia.",
+        "My guess from these symptoms, it can be Tularemia.",
+        "it can be bone Tularemia.",
+        "you can have an bone Tularemia."
+        
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Asking for symptoms",
+      "patterns": [
+        "i am sick",
+        "i feel pain",
+        "how can you help me?"
+      ],
+      "responses": [
+        "Can you tell me more symptoms, please?",
+        "Tell me more about what you feel"
+      ]
+    }
+    
+    
+    
+  ]
+}
